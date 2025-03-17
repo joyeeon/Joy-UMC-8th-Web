@@ -34,6 +34,7 @@ gap:12px;
 font-size:10px;
 justify-content:flex-end;
 margin-right:10vw;
+cursor:pointer;
 
 }
 
