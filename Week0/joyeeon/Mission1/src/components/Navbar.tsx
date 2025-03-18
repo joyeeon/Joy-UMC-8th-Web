@@ -5,13 +5,16 @@ const Navbar: React.FC = () =>{
             src="UMC_logo.png" alt="로고" />
 
             <article className = "taps">
-                <span>소개</span>
-                <span>프로젝트</span>
-                <span>Q&A</span>
-                <span>지원하기</span>
+                <ul>소개</ul>
+                <ul>프로젝트</ul>
+                <ul>Q&A</ul>
+                <ul>지원하기</ul>
                 
             </article>
-            <img  className="hambuger" src="Hambuger.png" alt="햄버거" />
+            <button style={{backgroundColor:'transparent', border:'none'}}>
+                <img  className="hambuger" src="Hambuger.png" alt="햄버거" />
+            </button>
+            
         </nav>
     )
 }

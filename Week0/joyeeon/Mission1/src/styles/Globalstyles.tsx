@@ -42,10 +42,11 @@ cursor:pointer;
 width: 20px;
 visibility: hidden;
 margin-right:10vw;
+cursor:pointer;
 }
 
 @media(max-width: 700px) {
-.taps span{
+.taps ul{
 visibility: hidden;
 }
 .hambuger {
